@@ -1,6 +1,7 @@
 import { Link } from 'react-router-dom'
 import { ArrowRight } from 'lucide-react'
 import BenefitsMarquee from './BenefitsMarquee'
+import { lazy } from 'react'
 
 export default function ProductCard({ product }) {
   const { id, name, price, description, image, benefits, tag } = product
@@ -15,7 +16,6 @@ export default function ProductCard({ product }) {
         <img
           src={image}
           alt={name}
-          loading="lazy"
           className="w-full h-full object-cover"
         />
         {tag && (

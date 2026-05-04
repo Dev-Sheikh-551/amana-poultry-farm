@@ -5,13 +5,16 @@
 @layer base {
   html {
     scroll-behavior: smooth;
+    overflow-x: hidden;
   }
 
   body {
+    margin: 0;
     font-family: 'DM Sans', system-ui, sans-serif;
     background-color: #fdfaf4;
     color: #1a1a1a;
     -webkit-font-smoothing: antialiased;
+    overflow-x: hidden;
   }
 
   h1, h2, h3, h4 {

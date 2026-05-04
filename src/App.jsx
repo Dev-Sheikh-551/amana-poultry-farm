@@ -9,7 +9,7 @@ import ProductDetail from './pages/ProductDetail'
 
 export default function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter future={{ v7_relativeSplatPath: true, v7_startTransition: true }}>
       <div className="flex flex-col min-h-screen">
         <Navbar />
         <main className="flex-1 page-enter">
