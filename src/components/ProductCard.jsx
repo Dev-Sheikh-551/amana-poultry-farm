@@ -35,7 +35,7 @@ export default function ProductCard({ product }) {
 
         <div className="mt-auto flex items-center justify-between">
           <div>
-            <span className="text-[11px] text-forest-400 font-body uppercase tracking-wider">From</span>
+            <span className="text-[11px] text-forest-400 font-body uppercase tracking-wider">For</span>
             <p className="text-forest-800 font-display font-bold text-xl">
               GMD {price.toLocaleString()}
             </p>

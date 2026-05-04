@@ -7,11 +7,18 @@ export default function Footer() {
       <div className="max-w-6xl mx-auto px-4 sm:px-6 py-14 grid grid-cols-1 md:grid-cols-3 gap-10">
         {/* Brand */}
         <div>
-          <div className="flex items-center gap-2 mb-4">
-            <div className="w-9 h-9 bg-forest-600 rounded-xl flex items-center justify-center">
-              <Leaf size={18} className="text-gold-300" />
+          <div className="flex items-center mb-4">
+            <div className="w-24 h-24 flex items-center justify-center">
+              <img src="/images/amana-logo.png" alt="Amana Poultry logo" className="w-24 h-24 object-contain" />
             </div>
-            <span className="font-display font-bold text-white text-xl">QuailFresh Farms</span>
+            <div className="leading-tight">
+            <span className="font-display font-bold text-white text-lg block leading-none">
+              Amana Poultry
+            </span>
+            <span className="text-[10px] font-body font-500 text-forest-500 tracking-widest uppercase">
+              Farms
+            </span>
+          </div>
           </div>
           <p className="text-forest-400 text-sm leading-relaxed font-body">
             Premium quail eggs, raised with care and delivered fresh to your door. Serving households
@@ -62,7 +69,7 @@ export default function Footer() {
 
       <div className="border-t border-forest-800 px-4 sm:px-6 py-5">
         <p className="text-center text-forest-500 text-xs font-body">
-          © {new Date().getFullYear()} QuailFresh Farms. All rights reserved.
+          © {new Date().getFullYear()} Amana Poultry Farms. All rights reserved.
         </p>
       </div>
     </footer>

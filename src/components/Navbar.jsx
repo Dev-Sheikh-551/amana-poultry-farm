@@ -31,15 +31,15 @@ export default function Navbar() {
           : 'bg-transparent'
       }`}
     >
-      <nav className="max-w-6xl mx-auto px-4 sm:px-6 h-16 flex items-center justify-between">
+      <nav className="max-w-6xl mx-auto px-4 sm:px-6 h-24 flex items-center justify-between">
         {/* Logo */}
-        <Link to="/" className="flex items-center gap-2 group">
-          <div className="w-9 h-9 bg-forest-600 rounded-xl flex items-center justify-center shadow-md group-hover:bg-forest-700 transition-colors">
-            <Leaf size={18} className="text-gold-300" />
+        <Link to="/" className="flex items-center group">
+          <div className="w-24 h-24 flex items-center justify-center ">
+            <img src="/images/amana-logo.png" alt="logo" className='w-24 h-24 object-contain' />
           </div>
           <div className="leading-tight">
             <span className="font-display font-bold text-forest-800 text-lg block leading-none">
-              QuailFresh
+              Amana Poultry
             </span>
             <span className="text-[10px] font-body font-500 text-forest-500 tracking-widest uppercase">
               Farms
@@ -66,7 +66,7 @@ export default function Navbar() {
             </NavLink>
           ))}
           <a
-            href="https://wa.me/2203000000"
+            href="https://wa.me/2205938108"
             target="_blank"
             rel="noopener noreferrer"
             className="ml-3 px-5 py-2 bg-gold-500 hover:bg-gold-600 text-forest-900 text-sm font-body font-600 rounded-xl shadow-gold transition-all duration-200 hover:shadow-md"
@@ -105,7 +105,7 @@ export default function Navbar() {
             </NavLink>
           ))}
           <a
-            href="https://wa.me/2203000000"
+            href="https://wa.me/2205938108"
             target="_blank"
             rel="noopener noreferrer"
             className="mt-1 px-4 py-3 bg-gold-500 text-forest-900 font-body font-600 rounded-xl text-center"

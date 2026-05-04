@@ -21,7 +21,7 @@ export default function ProductDetail() {
   const { name, price, description, image, benefits, tag } = product
 
   const waMessage = encodeURIComponent(
-    `Hello QuailFresh Farms! I'd like to order: *${name}* (GMD ${price}). Please confirm availability.`
+    `Hello Amana Poultry Farms! I'd like to order: *${name}* (GMD ${price}). Please confirm availability.`
   )
 
   // Other products (excluding current)

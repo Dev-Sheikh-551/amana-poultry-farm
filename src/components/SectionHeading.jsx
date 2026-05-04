@@ -10,7 +10,7 @@ export default function SectionHeading({ eyebrow, title, subtitle, center = fals
         {title}
       </h2>
       {subtitle && (
-        <p className="mt-3 text-forest-500 font-body text-base sm:text-lg leading-relaxed max-w-2xl mx-auto">
+        <p className={`mt-3 text-forest-500 font-body text-base sm:text-lg leading-relaxed max-w-2xl ${center ? 'mx-auto' : ''}`}>
           {subtitle}
         </p>
       )}

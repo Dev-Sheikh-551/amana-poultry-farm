@@ -19,7 +19,7 @@ const contactInfo = [
     icon: Phone,
     label: 'WhatsApp / Phone',
     value: '+220 5938108',
-    href: 'tel:+2203000000',
+    href: 'tel:+2205938108',
   },
   {
     icon: Mail,
@@ -77,7 +77,7 @@ export default function Contact() {
   }
 
   return (
-    <div className="bg-cream min-h-screen pt-16">
+    <div className="bg-cream min-h-screen pt-24">
       {/* Hero */}
       <section className="bg-forest-800 py-16 relative overflow-hidden">
         <div className="absolute inset-0 opacity-20"
@@ -143,7 +143,7 @@ export default function Contact() {
 
             {/* WhatsApp CTA */}
             <a
-              href="https://wa.me/2203000000?text=Hello%20QuailFresh%20Farms!%20I%20have%20an%20enquiry."
+              href="https://wa.me/2205938108?text=Hello%20QuailFresh%20Farms!%20I%20have%20an%20enquiry."
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center justify-center gap-2 py-3.5 bg-[#25D366] hover:bg-[#1dbe5a] text-white font-body font-600 rounded-xl shadow-md hover:shadow-lg transition-all duration-200 text-sm"

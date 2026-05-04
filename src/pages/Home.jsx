@@ -99,7 +99,7 @@ export default function Home() {
                 Browse Products
               </a>
               <a
-                href="https://wa.me/2203000000?text=Hello!%20I%20want%20to%20place%20a%20wholesale%20order."
+                href="https://wa.me/2205938108?text=Hello!%20I%20want%20to%20place%20a%20wholesale%20order."
                 target="_blank"
                 rel="noopener noreferrer"
                 className="px-7 py-3.5 bg-gold-500 hover:bg-gold-600 text-forest-900 font-body font-600 rounded-xl shadow-gold hover:shadow-lg transition-all duration-200 text-sm"
@@ -110,7 +110,7 @@ export default function Home() {
 
             {/* Stats row */}
             <div className="mt-14 flex flex-wrap gap-8">
-              {[['500+', 'Families Served'], ['5 Years', 'Experience'], ['100%', 'Farm Fresh']].map(
+              {[['200+', 'Families Served'], ['2 Years', 'Experience'], ['100%', 'Farm Fresh']].map(
                 ([num, label]) => (
                   <div key={label}>
                     <p className="font-display font-bold text-white text-2xl">{num}</p>
@@ -137,6 +137,7 @@ export default function Home() {
           eyebrow="Our Products"
           title="Fresh From The Farm"
           subtitle="Handpicked, quality-checked, and packed daily. Choose the pack that's right for you."
+          start
         />
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5">
           {products.map((product) => (
@@ -148,7 +149,7 @@ export default function Home() {
           <p className="text-forest-500 text-sm font-body">
             Need a custom order?{' '}
             <a
-              href="https://wa.me/2203000000?text=I%20need%20a%20custom%20quail%20egg%20order."
+              href="https://wa.me/2205938108?text=I%20need%20a%20custom%20quail%20egg%20order."
               target="_blank"
               rel="noopener noreferrer"
               className="text-forest-600 font-600 hover:underline"
@@ -163,8 +164,8 @@ export default function Home() {
       <section className="bg-parchment border-y border-forest-100 py-20">
         <div className="max-w-6xl mx-auto px-4 sm:px-6">
           <SectionHeading
-            eyebrow="Why QuailFresh"
-            title="Farmed With Integrity,Delivered With Pride"
+            eyebrow="Why Amana Poultry?"
+            title="Farmed With Integrity, Delivered With Pride"
             subtitle="We don't just sell eggs — we deliver a standard. Here's what sets us apart."
             center
           />
@@ -198,7 +199,7 @@ export default function Home() {
             Chat with us directly on WhatsApp for the fastest response. We handle bulk orders daily.
           </p>
           <a
-            href="https://wa.me/2203000000?text=Hello%20QuailFresh!%20I%20want%20to%20discuss%20a%20wholesale%20order."
+            href="https://wa.me/2205938108?text=Hello%20QuailFresh!%20I%20want%20to%20discuss%20a%20wholesale%20order."
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center gap-2 mt-8 px-8 py-4 bg-gold-500 hover:bg-gold-400 text-forest-900 font-body font-700 rounded-xl shadow-gold text-base transition-all duration-200"

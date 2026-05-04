@@ -44,7 +44,7 @@ const team = [
 
 export default function About() {
   return (
-    <div className="bg-cream min-h-screen pt-16">
+    <div className="bg-cream min-h-screen pt-24">
       {/* Hero */}
       <section className="relative overflow-hidden bg-forest-800 py-20">
         <div className="absolute inset-0">
@@ -64,7 +64,7 @@ export default function About() {
             <span className="italic text-gold-400">To Your Table</span>
           </h1>
           <p className="mt-6 text-forest-200 font-body text-lg max-w-2xl mx-auto leading-relaxed">
-            QuailFresh Farms was born out of a simple idea: that every Gambian family deserves 
+            Amana Poultry Farms was born out of a simple idea: that every Gambian family deserves 
             access to fresh, nutritious, and affordable protein.
           </p>
         </div>
@@ -75,18 +75,18 @@ export default function About() {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
           <div>
             <SectionHeading
-              eyebrow="Est. 2019"
+              eyebrow="Est. 2025"
               title="A Family Farm Built on Passion"
             />
             <div className="space-y-4 text-forest-600 font-body text-base leading-relaxed">
               <p>
-                QuailFresh Farms started in 2019 with a small backyard flock and a big dream — 
+                Amana Poultry Farms started in 2025 with a small backyard flock and a big dream — 
                 to make quail eggs widely available across The Gambia. What started as a personal 
                 health journey became a mission to serve our community.
               </p>
               <p>
-                Over the years, we've grown from a small operation into a trusted supplier for 
-                restaurants, hotels, schools, and households across Serekunda and beyond. Our 
+                We are a trusted supplier for 
+                restaurants, hotels, and households across Serekunda and beyond. Our 
                 birds are raised in spacious, well-ventilated pens with natural feed and zero 
                 artificial hormones.
               </p>
@@ -174,9 +174,9 @@ export default function About() {
         <div className="max-w-4xl mx-auto px-4 sm:px-6">
           <div className="grid grid-cols-2 md:grid-cols-4 gap-6 text-center">
             {[
-              ['2019', 'Year Founded'],
-              ['500+', 'Happy Customers'],
-              ['5,000+', 'Eggs Per Week'],
+              ['2025', 'Year Founded'],
+              ['200+', 'Happy Customers'],
+              ['1,000+', 'Eggs Per Week'],
               ['100%', 'Natural Feed'],
             ].map(([num, label]) => (
               <div key={label}>
