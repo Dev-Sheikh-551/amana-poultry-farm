@@ -42,7 +42,7 @@ export default function Navbar() {
               Amana Poultry
             </span>
             <span className="text-[10px] font-body font-500 text-forest-500 tracking-widest uppercase">
-              Farms
+              Farm
             </span>
           </div>
         </Link>

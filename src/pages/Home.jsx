@@ -199,7 +199,7 @@ export default function Home() {
             Chat with us directly on WhatsApp for the fastest response. We handle bulk orders daily.
           </p>
           <a
-            href="https://wa.me/2205938108?text=Hello%20QuailFresh!%20I%20want%20to%20discuss%20a%20wholesale%20order."
+            href="https://wa.me/2205938108?text=Hello%20Amana%20Poultry%20Farm!%20I%20want%20to%20discuss%20a%20wholesale%20order."
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center gap-2 mt-8 px-8 py-4 bg-gold-500 hover:bg-gold-400 text-forest-900 font-body font-700 rounded-xl shadow-gold text-base transition-all duration-200"

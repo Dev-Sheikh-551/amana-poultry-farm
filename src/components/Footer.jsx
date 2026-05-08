@@ -16,7 +16,7 @@ export default function Footer() {
               Amana Poultry
             </span>
             <span className="text-[10px] font-body font-500 text-forest-500 tracking-widest uppercase">
-              Farms
+              Farm
             </span>
           </div>
           </div>
@@ -69,7 +69,7 @@ export default function Footer() {
 
       <div className="border-t border-forest-800 px-4 sm:px-6 py-5">
         <p className="text-center text-forest-500 text-xs font-body">
-          © {new Date().getFullYear()} Amana Poultry Farms. All rights reserved.
+          © {new Date().getFullYear()} Amana Poultry Farm. All rights reserved.
         </p>
       </div>
     </footer>

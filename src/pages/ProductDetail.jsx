@@ -58,7 +58,7 @@ export default function ProductDetail() {
           {/* Details */}
           <div className="flex flex-col justify-between gap-6">
             <div>
-              <span className="text-xs font-body font-600 text-forest-500 uppercase tracking-widest">QuailFresh Farms</span>
+              <span className="text-xs font-body font-600 text-forest-500 uppercase tracking-widest">Amana Poultry Farm</span>
               <h1 className="font-display font-bold text-forest-900 text-3xl sm:text-4xl mt-1 leading-tight">
                 {name}
               </h1>

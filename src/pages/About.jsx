@@ -64,7 +64,7 @@ export default function About() {
             <span className="italic text-gold-400">To Your Table</span>
           </h1>
           <p className="mt-6 text-forest-200 font-body text-lg max-w-2xl mx-auto leading-relaxed">
-            Amana Poultry Farms was born out of a simple idea: that every Gambian family deserves 
+            Amana Poultry Farm was born out of a simple idea: that every Gambian family deserves 
             access to fresh, nutritious, and affordable protein.
           </p>
         </div>
@@ -80,7 +80,7 @@ export default function About() {
             />
             <div className="space-y-4 text-forest-600 font-body text-base leading-relaxed">
               <p>
-                Amana Poultry Farms started in 2025 with a small backyard flock and a big dream — 
+                Amana Poultry Farm started in 2025 with a small backyard flock and a big dream — 
                 to make quail eggs widely available across The Gambia. What started as a personal 
                 health journey became a mission to serve our community.
               </p>

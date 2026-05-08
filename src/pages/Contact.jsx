@@ -143,7 +143,7 @@ export default function Contact() {
 
             {/* WhatsApp CTA */}
             <a
-              href="https://wa.me/2205938108?text=Hello%20QuailFresh%20Farms!%20I%20have%20an%20enquiry."
+              href="https://wa.me/2205938108?text=Hello%20Amana%20Poultry%20Farm!%20I%20have%20an%20enquiry."
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center justify-center gap-2 py-3.5 bg-[#25D366] hover:bg-[#1dbe5a] text-white font-body font-600 rounded-xl shadow-md hover:shadow-lg transition-all duration-200 text-sm"
