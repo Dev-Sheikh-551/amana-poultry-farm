@@ -98,5 +98,5 @@ export const products = [
   },
 ]
 
-export const WHATSAPP_NUMBER = '5938108' // Replace with real number
+export const WHATSAPP_NUMBER = import.meta.env.VITE_WHATSAPP_NUMBER
 export const WHATSAPP_BASE = `https://wa.me/${WHATSAPP_NUMBER}`

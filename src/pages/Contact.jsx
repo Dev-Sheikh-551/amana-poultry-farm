@@ -4,9 +4,9 @@ import { Mail, Phone, MapPin, Send, CheckCircle, AlertCircle } from 'lucide-reac
 import SectionHeading from '../components/SectionHeading'
 
 // ── Replace these with your real EmailJS credentials ──
-const EMAILJS_SERVICE_ID = 'YOUR_SERVICE_ID'
-const EMAILJS_TEMPLATE_ID = 'YOUR_TEMPLATE_ID'
-const EMAILJS_PUBLIC_KEY = 'YOUR_PUBLIC_KEY'
+const EMAILJS_SERVICE_ID  = import.meta.env.VITE_EMAILJS_SERVICE_ID
+const EMAILJS_TEMPLATE_ID = import.meta.env.VITE_EMAILJS_TEMPLATE_ID
+const EMAILJS_PUBLIC_KEY  = import.meta.env.VITE_EMAILJS_PUBLIC_KEY
 
 const contactInfo = [
   {
@@ -18,14 +18,14 @@ const contactInfo = [
   {
     icon: Phone,
     label: 'WhatsApp / Phone',
-    value: '+220 5938108',
-    href: 'tel:+2205938108',
+    value: '+220 5569155',
+    href: 'tel:+2205569155',
   },
   {
     icon: Mail,
     label: 'Email',
-    value: 'sheikhtijantouray551@gmail.com',
-    href: 'mailto:hsheikhtijantouray551@gmail.com',
+    value: 'amana.1.pourl3@gmail.com',
+    href: 'mailto:amana.1.pourl3@gmail.com',
   },
 ]
 
@@ -143,7 +143,7 @@ export default function Contact() {
 
             {/* WhatsApp CTA */}
             <a
-              href="https://wa.me/2205938108?text=Hello%20Amana%20Poultry%20Farm!%20I%20have%20an%20enquiry."
+              href="https://wa.me/2205569155?text=Hello%20Amana%20Poultry%20Farm!%20I%20have%20an%20enquiry."
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center justify-center gap-2 py-3.5 bg-[#25D366] hover:bg-[#1dbe5a] text-white font-body font-600 rounded-xl shadow-md hover:shadow-lg transition-all duration-200 text-sm"

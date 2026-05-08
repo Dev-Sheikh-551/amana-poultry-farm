@@ -66,7 +66,7 @@ export default function Navbar() {
             </NavLink>
           ))}
           <a
-            href="https://wa.me/2205938108"
+            href="https://wa.me/2205569155"
             target="_blank"
             rel="noopener noreferrer"
             className="ml-3 px-5 py-2 bg-gold-500 hover:bg-gold-600 text-forest-900 text-sm font-body font-600 rounded-xl shadow-gold transition-all duration-200 hover:shadow-md"
@@ -105,7 +105,7 @@ export default function Navbar() {
             </NavLink>
           ))}
           <a
-            href="https://wa.me/2205938108"
+            href="https://wa.me/2205569155"
             target="_blank"
             rel="noopener noreferrer"
             className="mt-1 px-4 py-3 bg-gold-500 text-forest-900 font-body font-600 rounded-xl text-center"

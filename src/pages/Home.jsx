@@ -99,7 +99,7 @@ export default function Home() {
                 Browse Products
               </a>
               <a
-                href="https://wa.me/2205938108?text=Hello!%20I%20want%20to%20place%20a%20wholesale%20order."
+                href="https://wa.me/2205569155?text=Hello!%20I%20want%20to%20place%20a%20wholesale%20order."
                 target="_blank"
                 rel="noopener noreferrer"
                 className="px-7 py-3.5 bg-gold-500 hover:bg-gold-600 text-forest-900 font-body font-600 rounded-xl shadow-gold hover:shadow-lg transition-all duration-200 text-sm"
@@ -149,7 +149,7 @@ export default function Home() {
           <p className="text-forest-500 text-sm font-body">
             Need a custom order?{' '}
             <a
-              href="https://wa.me/2205938108?text=I%20need%20a%20custom%20quail%20egg%20order."
+              href="https://wa.me/2205569155?text=I%20need%20a%20custom%20quail%20egg%20order."
               target="_blank"
               rel="noopener noreferrer"
               className="text-forest-600 font-600 hover:underline"
@@ -199,7 +199,7 @@ export default function Home() {
             Chat with us directly on WhatsApp for the fastest response. We handle bulk orders daily.
           </p>
           <a
-            href="https://wa.me/2205938108?text=Hello%20Amana%20Poultry%20Farm!%20I%20want%20to%20discuss%20a%20wholesale%20order."
+            href="https://wa.me/2205569155?text=Hello%20Amana%20Poultry%20Farm!%20I%20want%20to%20discuss%20a%20wholesale%20order."
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center gap-2 mt-8 px-8 py-4 bg-gold-500 hover:bg-gold-400 text-forest-900 font-body font-700 rounded-xl shadow-gold text-base transition-all duration-200"
