@@ -77,18 +77,18 @@ export default function Home() {
           <div className="max-w-2xl">
             <span className="inline-flex items-center gap-2 text-gold-400 text-xs font-body font-600 uppercase tracking-widest mb-6 bg-white/10 backdrop-blur-sm border border-white/20 px-4 py-2 rounded-full">
               <span className="w-1.5 h-1.5 rounded-full bg-gold-400 animate-pulse" />
-              2026 Wholesale Collection
+              2026 Farm Collection
             </span>
 
-            <h1 className="font-display font-bold text-white text-5xl sm:text-6xl md:text-7xl leading-[1.05] tracking-tight">
-              Nature's Most
-              <span className="block italic text-gold-400">Nutritious</span>
-              Little Egg.
+            <h1 className="font-display font-bold text-white text-5xl       sm:text-6xl md:text-7xl leading-[1.05] tracking-tight">
+              Farm Fresh,
+              <span className="block italic text-gold-400">Naturally</span>
+              Raised.
             </h1>
 
             <p className="mt-6 text-forest-200 font-body text-lg sm:text-xl leading-relaxed max-w-lg">
-              Premium quail eggs sourced from healthy farm-raised birds. Retail and wholesale, 
-              straight from our farm to your table.
+              Premium quail eggs, fresh meat, and healthy live birds — 
+              sourced directly from our farm in The Gambia.
             </p>
 
             <div className="mt-10 flex flex-wrap gap-3">
@@ -104,7 +104,7 @@ export default function Home() {
                 rel="noopener noreferrer"
                 className="px-7 py-3.5 bg-gold-500 hover:bg-gold-600 text-forest-900 font-body font-600 rounded-xl shadow-gold hover:shadow-lg transition-all duration-200 text-sm"
               >
-                Wholesale Enquiry
+                Make an Enquiry
               </a>
             </div>
 

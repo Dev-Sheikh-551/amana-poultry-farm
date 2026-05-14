@@ -109,7 +109,7 @@ export default function ProductDetail() {
                 <CheckCircle2 size={16} className="text-forest-600" />
               </div>
               <h3 className="font-display font-semibold text-forest-900 text-lg">
-                Health Benefits
+                Benefits
               </h3>
             </div>
             <ul className="flex flex-col gap-2.5">

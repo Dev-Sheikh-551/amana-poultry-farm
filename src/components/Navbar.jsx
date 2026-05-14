@@ -38,11 +38,11 @@ export default function Navbar() {
             <img src="/images/amana-logo.png" alt="logo" className='w-24 h-24 object-contain' />
           </div>
           <div className="leading-tight">
-            <span className="font-display font-bold text-forest-800 text-lg block leading-none">
-              Amana Poultry
+            <span className={`font-display font-bold text-lg block leading-none transition-colors duration-300 ${scrolled ? 'text-forest-800' : 'text-white'}`}>
+            Amana Poultry
             </span>
-            <span className="text-[10px] font-body font-500 text-forest-500 tracking-widest uppercase">
-              Farm
+            <span className={`text-[10px] font-body font-500 tracking-widest uppercase transition-colors duration-300 ${scrolled ? 'text-forest-500' : 'text-white/70'}`}>
+            Farm
             </span>
           </div>
         </Link>
@@ -50,20 +50,22 @@ export default function Navbar() {
         {/* Desktop links */}
         <div className="hidden md:flex items-center gap-1">
           {navLinks.map(({ to, label }) => (
-            <NavLink
-              key={to}
-              to={to}
-              end={to === '/'}
-              className={({ isActive }) =>
-                `px-4 py-2 rounded-lg text-sm font-body font-500 transition-all duration-200 ${
-                  isActive
-                    ? 'bg-forest-600 text-white shadow-sm'
-                    : 'text-forest-700 hover:bg-forest-50 hover:text-forest-800'
-                }`
-              }
-            >
-              {label}
-            </NavLink>
+          <NavLink
+            key={to}
+            to={to}
+            end={to === '/'}
+            className={({ isActive }) =>
+              `px-4 py-2 rounded-lg text-sm font-body font-500 transition-all duration-200 ${
+                isActive
+                  ? 'bg-forest-600 text-white shadow-sm'
+                  : scrolled
+                  ? 'text-forest-700 hover:bg-forest-50 hover:text-forest-800'
+                  : 'text-white/90 hover:bg-white/10 hover:text-white'
+              }`
+            }
+          >
+            {label}
+          </NavLink>
           ))}
           <a
             href="https://wa.me/2205569155"
@@ -78,7 +80,7 @@ export default function Navbar() {
         {/* Mobile hamburger */}
         <button
           onClick={() => setOpen((o) => !o)}
-          className="md:hidden p-2 rounded-lg text-forest-700 hover:bg-forest-50"
+          className={`md:hidden p-2 rounded-lg transition-colors ${scrolled ? 'text-forest-700 hover:bg-forest-50' : 'text-white hover:bg-white/10'}`}
           aria-label="Toggle menu"
         >
           {open ? <X size={22} /> : <Menu size={22} />}
