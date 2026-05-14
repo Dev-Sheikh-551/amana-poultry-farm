@@ -28,17 +28,17 @@ const team = [
   {
     name: 'Mansour Ceesay',
     role: 'Founder & Head Farmer',
-    image: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&auto=format&fit=crop&q=80',
+    image: '/images/founder-profile.jpeg',
   },
   {
     name: 'Mariama Ceesay',
     role: 'Operations Manager',
-    image: 'https://images.unsplash.com/photo-1531123897727-8f129e1688ce?w=400&auto=format&fit=crop&q=80',
+    image: '/images/user.png',
   },
   {
     name: 'Ebrima Ceesay',
     role: 'Wholesale Coordinator',
-    image: 'https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=400&auto=format&fit=crop&q=80',
+    image: '/images/user.png',
   },
 ]
 
