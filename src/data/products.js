@@ -7,7 +7,7 @@ export const products = [
     description:
       'A perfectly portioned tray of 30 fresh quail eggs, ideal for families, home cooks, and health-conscious individuals. Each egg is hand-sorted and packed the same day.',
     image:
-      '/images/quail-tray-30.jpg',
+      '/images/30-quail-eggs-tray.png',
     benefits: [
       'High Protein',
       'Boosts Immunity',
@@ -39,7 +39,7 @@ export const products = [
     description:
       'A perfectly portioned tray of 18 fresh quail eggs, ideal for families, home cooks, and health-conscious individuals. Each egg is hand-sorted and packed the same day.',
     image:
-      '/images/quail-eggs.jpg',
+      '/images/18-quail-eggs-tray.png',
     benefits: [
       'High Protein',
       'Boosts Immunity',
@@ -70,7 +70,7 @@ export const products = [
     price: 4000,
     description:
       'A wholesale flat of 10 crates with 30 eggs per crate, totalling 300 fresh quail eggs. Perfect for restaurants, hotels, and resellers looking for a reliable bulk supply.',
-    image: '/images/quail-wholesale.jpg',
+    image: '/images/quail-eggs-wholesale-30.jpg',
     benefits: [
       'Bulk Value',
       'Restaurant Grade',
@@ -97,7 +97,7 @@ export const products = [
     price: 3000,
     description:
       'A wholesale flat of 10 crates with 18 eggs per crate, totalling 180 fresh quail eggs. A flexible mid-volume option for small businesses, canteens, and catering services.',
-    image: '/images/quail-wholesale.jpg',
+    image: '/images/quail-eggs-wholesale-18.jpg',
     benefits: [
       'Flexible Volume',
       'Restaurant Grade',
@@ -156,7 +156,7 @@ export const products = [
     price: 100,
     description:
       'Healthy 2-week-old quail chicks, perfect for starting or expanding your own quail farm. Raised in clean, well-ventilated pens with natural feed from day one.',
-    image: '/images/quail-chicks.webp',
+    image: '/images/quail-chicks.png',
     benefits: [
       'Farm Ready',
       'Healthy Chicks',
@@ -210,7 +210,7 @@ export const products = [
     price: 250,
     description:
       'Fresh, tender quail meat sourced directly from our farm. A lean, flavourful protein choice loved by chefs and health-conscious families alike. Available for retail and bulk orders.',
-    image: '/images/quail-meat.webp',
+    image: '/images/raw-quail-meat.png',
     benefits: [
       'High Protein',
       'Low Fat',
@@ -228,6 +228,60 @@ export const products = [
       'Marinate for at least 1 hour before grilling or roasting for best flavour',
       'Cook to an internal temperature of 74°C for food safety',
       'Best cooked whole — grill, roast, or fry for a rich, gamey flavour',
+    ],
+    tag: 'New',
+  },
+  {
+    id: 'brahma-chick',
+    name: 'Brahma Chick',
+    price: 150,
+    description:
+      'Healthy young Brahma chicks ready for raising. Known for their gentle temperament and impressive size, Brahma chickens are one of the most sought-after breeds for both meat and egg production. Raised with natural feed from day one.',
+    image: '/images/brahman-chicks.jpg',
+    benefits: [
+      'Fast Growing',
+      'Gentle Breed',
+      'Dual Purpose',
+      'Hardy Bird',
+      'Easy to Raise',
+      'High Yield',
+      'Natural Feed',
+      'Farm Raised',
+    ],
+    tips: [
+      'Keep chicks in a warm brooder at 35°C for the first week',
+      'Reduce brooder temperature by 5°C each week until fully feathered',
+      'Brahmas feather their feet — keep bedding dry to avoid foot problems',
+      'Feed chick starter crumble for the first 8 weeks',
+      'Provide clean fresh water at all times',
+      'Brahmas grow slowly — expect full size at around 18 months',
+    ],
+    tag: 'New',
+  },
+  {
+    id: 'brahma-adult',
+    name: 'Adult Brahma Chicken',
+    price: 500,
+    description:
+      'Fully grown Brahma chickens available for purchase. One of the largest chicken breeds in the world, Brahmas are prized for their rich meat, calm nature, and consistent egg laying. Perfect for farms, households, and breeders.',
+    image: '/images/brahman-chicken-female.jpg',
+    benefits: [
+      'Large Breed',
+      'Rich Meat',
+      'Egg Layer',
+      'Calm Nature',
+      'Cold Hardy',
+      'Dual Purpose',
+      'Breeder Ready',
+      'Premium Quality',
+    ],
+    tips: [
+      'Provide at least 1 square meter of space per bird in the coop',
+      'Feed layer pellets with 16–18% protein for optimal egg production',
+      'Clean and inspect feathered feet weekly to prevent mites',
+      'Brahmas are heavy birds — ensure perches are low and sturdy',
+      'Provide fresh water and shade during hot weather',
+      'Males can be territorial — monitor when introducing new birds',
     ],
     tag: 'New',
   },

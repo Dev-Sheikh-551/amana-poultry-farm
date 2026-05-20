@@ -13,8 +13,16 @@ export default function Navbar() {
   const [scrolled, setScrolled] = useState(false)
   const { pathname } = useLocation()
 
+  // Only the home page has a dark hero — all other pages need dark text immediately
+  const isHome = pathname === '/'
+
+  // On non-home pages, always behave as if scrolled
+  const isDark = !isHome || scrolled
+
   useEffect(() => {
     setOpen(false)
+    // Reset scroll state when navigating
+    setScrolled(window.scrollY > 20)
   }, [pathname])
 
   useEffect(() => {
@@ -26,23 +34,24 @@ export default function Navbar() {
   return (
     <header
       className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
-        scrolled
+        isDark
           ? 'bg-cream/95 backdrop-blur-md shadow-sm border-b border-forest-100'
           : 'bg-transparent'
       }`}
     >
-      <nav className="max-w-6xl mx-auto px-4 sm:px-6 h-24 flex items-center justify-between">
+      <nav className="max-w-6xl mx-auto px-4 sm:px-6 h-16 flex items-center justify-between">
+
         {/* Logo */}
-        <Link to="/" className="flex items-center group">
+        <Link to="/" className="flex items-center gap-2 group">
           <div className="w-24 h-24 flex items-center justify-center ">
             <img src="/images/amana-logo.png" alt="logo" className='w-24 h-24 object-contain' />
           </div>
           <div className="leading-tight">
-            <span className={`font-display font-bold text-lg block leading-none transition-colors duration-300 ${scrolled ? 'text-forest-800' : 'text-white'}`}>
-            Amana Poultry
+            <span className={`font-display font-bold text-lg block leading-none transition-colors duration-300 ${isDark ? 'text-forest-800' : 'text-white'}`}>
+              Amana
             </span>
-            <span className={`text-[10px] font-body font-500 tracking-widest uppercase transition-colors duration-300 ${scrolled ? 'text-forest-500' : 'text-white/70'}`}>
-            Farm
+            <span className={`text-[10px] font-body font-500 tracking-widest uppercase transition-colors duration-300 ${isDark ? 'text-forest-500' : 'text-white/70'}`}>
+              Poultry Farm
             </span>
           </div>
         </Link>
@@ -50,25 +59,25 @@ export default function Navbar() {
         {/* Desktop links */}
         <div className="hidden md:flex items-center gap-1">
           {navLinks.map(({ to, label }) => (
-          <NavLink
-            key={to}
-            to={to}
-            end={to === '/'}
-            className={({ isActive }) =>
-              `px-4 py-2 rounded-lg text-sm font-body font-500 transition-all duration-200 ${
-                isActive
-                  ? 'bg-forest-600 text-white shadow-sm'
-                  : scrolled
-                  ? 'text-forest-700 hover:bg-forest-50 hover:text-forest-800'
-                  : 'text-white/90 hover:bg-white/10 hover:text-white'
-              }`
-            }
-          >
-            {label}
-          </NavLink>
+            <NavLink
+              key={to}
+              to={to}
+              end={to === '/'}
+              className={({ isActive }) =>
+                `px-4 py-2 rounded-lg text-sm font-body font-500 transition-all duration-200 ${
+                  isActive
+                    ? 'bg-forest-600 text-white shadow-sm'
+                    : isDark
+                    ? 'text-forest-700 hover:bg-forest-50 hover:text-forest-800'
+                    : 'text-white/90 hover:bg-white/10 hover:text-white'
+                }`
+              }
+            >
+              {label}
+            </NavLink>
           ))}
           <a
-            href="https://wa.me/2205569155"
+            href="https://wa.me/2203000000"
             target="_blank"
             rel="noopener noreferrer"
             className="ml-3 px-5 py-2 bg-gold-500 hover:bg-gold-600 text-forest-900 text-sm font-body font-600 rounded-xl shadow-gold transition-all duration-200 hover:shadow-md"
@@ -80,7 +89,9 @@ export default function Navbar() {
         {/* Mobile hamburger */}
         <button
           onClick={() => setOpen((o) => !o)}
-          className={`md:hidden p-2 rounded-lg transition-colors ${scrolled ? 'text-forest-700 hover:bg-forest-50' : 'text-white hover:bg-white/10'}`}
+          className={`md:hidden p-2 rounded-lg transition-colors ${
+            isDark ? 'text-forest-700 hover:bg-forest-50' : 'text-white hover:bg-white/10'
+          }`}
           aria-label="Toggle menu"
         >
           {open ? <X size={22} /> : <Menu size={22} />}
@@ -97,9 +108,7 @@ export default function Navbar() {
               end={to === '/'}
               className={({ isActive }) =>
                 `px-4 py-3 rounded-xl text-base font-body font-500 transition-colors ${
-                  isActive
-                    ? 'bg-forest-600 text-white'
-                    : 'text-forest-700 hover:bg-forest-50'
+                  isActive ? 'bg-forest-600 text-white' : 'text-forest-700 hover:bg-forest-50'
                 }`
               }
             >
@@ -107,7 +116,7 @@ export default function Navbar() {
             </NavLink>
           ))}
           <a
-            href="https://wa.me/2205569155"
+            href="https://wa.me/2203000000"
             target="_blank"
             rel="noopener noreferrer"
             className="mt-1 px-4 py-3 bg-gold-500 text-forest-900 font-body font-600 rounded-xl text-center"
