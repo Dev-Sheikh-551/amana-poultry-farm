@@ -87,8 +87,7 @@ export default function Home() {
             </h1>
 
             <p className="mt-6 text-forest-200 font-body text-lg sm:text-xl leading-relaxed max-w-lg">
-              Premium quail eggs, fresh meat, and healthy live birds — 
-              sourced directly from our farm in The Gambia.
+              Premium quail eggs, quail meat and brahma chickens sourced from healthy farm-raised birds. Wholesale & retail in The Gambia.
             </p>
 
             <div className="mt-10 flex flex-wrap gap-3">

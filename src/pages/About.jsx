@@ -28,7 +28,7 @@ const team = [
   {
     name: 'Mansour Ceesay',
     role: 'Founder & Head Farmer',
-    image: '/images/founder-profile.jpeg',
+    image: '/images/owner.jpeg',
   },
   {
     name: 'Mariama Ceesay',
